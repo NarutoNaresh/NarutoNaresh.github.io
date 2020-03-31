@@ -12,7 +12,7 @@ b.addEventListener("mouseout",()=>{
 
 // Side bar open action
 function menuopen(){
-    document.querySelector(".sb").style.width="15%";
+    document.querySelector(".sb").style.width="17%";
     document.querySelector(".sb").style.overflow="hidden";
     //overflow-x: hidden;
     // document.getElementById("mySidenav").style.width = "250px";
