@@ -160,6 +160,7 @@ height: 650px;
     padding-left: 40%;
     font-size:50px;
     /* min-width: 0.8vw; */
+    width: 50%;
     filter:drop-shadow(0px 8px 8px  rgb(0, 0, 0));
 
     margin-bottom: 1rem;
@@ -238,6 +239,10 @@ transition-timing-function:cubic-bezier(0.51,-0.47, 0.27, 1.55);
     /* font-size:22px; */
     line-height: 2;
 
+}
+.title-2-corrected{
+    width: 50%;
+    margin-left: 0px;
 }
 
 @media screen and (min-width:600px){
