@@ -36,3 +36,16 @@ if (letter.length===currentText.length){
 }
 setTimeout(type,350);
 })();
+
+//For Fun !
+window.addEventListener("keydown",restrict)
+function restrict(e){
+ if ((e.key=='u'||e.key=='U')&&e.ctrlKey){
+   alert("FBI WANTS TO KNOW YOUR LOCATION")
+   e.preventDefault()
+ }
+ else if ((e.key=='i'||e.key=='I')&&e.ctrlKey &&e.shiftKey){
+  alert("FBI WANTS TO KNOW YOUR LOCATION")
+  e.preventDefault()
+}
+}
