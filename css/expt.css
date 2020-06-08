@@ -470,9 +470,9 @@ transition-timing-function:cubic-bezier(0.51,-0.47, 0.27, 1.55);
     }
 
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:550px){
     .li-blk li{
-        margin-top: 21%;
+       margin-top: 15%; /* margin-top: 21%; max-width:400px */
     }
 }
 @-o-viewport{
